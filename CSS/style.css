@@ -65,6 +65,7 @@ nav li{
 footer{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 5px 0;
   color: #fcffa6;
   background-color: #0A004F;
