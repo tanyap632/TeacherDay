@@ -1,0 +1,87 @@
+/*общее*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+body{
+  background-color: #FFFFF0;
+  color: #0A004F;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 20px;
+}
+/*шапка*/
+header{
+  display: flex;
+  justify-content: space-around ;
+  padding: 5px 0;
+  background-color: #0A004F;
+}
+header  img{
+  width: 10%;
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+nav a{
+  text-decoration: none;
+  color: #fcffa6;
+  margin-left: 40px;
+}
+nav a:hover{
+  color: #ffff00;
+}
+nav a.selected{
+  color: #FFF;
+  text-decoration: underline #ffff00;
+  pointer-events: none;
+}
+nav li{
+  display: inline;
+  list-style-type: none;
+}
+/*поздравляшка*/
+.block_stih{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;}
+.block_stih hr{width: 150px;margin:auto;margin-top: 20px; }
+.block_stih h1{font-size: 70px;text-align: center;}
+.block_stih h1 a{text-decoration: none;color: #0A004F;}
+.stih{display: flex; margin-top: 50px;justify-content: space-evenly;align-items: center;}
+.stih p{font-size: 25px;}
+.stih img{width: 50%;}
+.istocnik{margin: 35px  auto;}
+.istocnik a{color: #0A004F;}
+/*подвал*/
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 0;
+  color: #fcffa6;
+  background-color: #0A004F;
+  min-height:128px;
+  margin:  auto;
+  height: auto;
+}
+
+.copy_infa{margin: auto 0;}
+.socsety{margin-top: 15px;}
+.socsety img{
+  height: 35px;
+}
+footer img {
+  width: 10%;
+}
+.scetcik{background-color: #fff;}
+/*@media  (min-width:5000px){
+  footer{min-height: 465px;}
+}  */
