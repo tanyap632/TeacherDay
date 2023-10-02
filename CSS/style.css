@@ -130,12 +130,12 @@ footer .socsety img {
   height: 100%;
     background-color: rgba(10, 0, 79, .6);
     color: #FFFFF0;
-    padding: 30px;
+    padding: 50px 35px;
    
 }
 .teach_info h3{color: #fcffa6;}
 .teach_info p{
-  padding: 50px 0;
+  padding-top: 30px;
   width: 100%;
 }
 .teach_img:hover .teach_info{opacity: 1;
