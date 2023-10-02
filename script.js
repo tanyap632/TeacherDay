@@ -13,5 +13,3 @@ $("a:not([href*=\\#])").click(function () {
     return false;
   }
 });
-
-

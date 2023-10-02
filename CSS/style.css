@@ -97,7 +97,6 @@ footer .socsety img {
 /*страница Кураторы*/
 .block_cur{
   width: 100%;
-    margin: auto;
     margin-top: 70px;
 }
 .block_cur h1 {
@@ -109,7 +108,7 @@ footer .socsety img {
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  margin: 70px auto;
+  margin: 70px 0;
 }
 .teach_img{
   width: 26%;
@@ -131,13 +130,13 @@ footer .socsety img {
   height: 100%;
     background-color: rgba(10, 0, 79, .6);
     color: #FFFFF0;
-    padding: 50px;
+    padding: 30px;
    
 }
 .teach_info h3{color: #fcffa6;}
 .teach_info p{
   padding: 50px 0;
-  text-align: justify;
+  width: 100%;
 }
 .teach_img:hover .teach_info{opacity: 1;
   transition: 0.55s opacity;}
