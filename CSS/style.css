@@ -128,3 +128,9 @@ footer .socsety img {
 .teach_info p{font-size: 14px;}
 .block_cur h1, .block_stih h1{font-size: 50px;}
 }
+@media screen and (max-width:768px){
+.stih{flex-direction: column-reverse;margin: 20px;}
+.stih img{width: 70%;margin-top: 15px;}
+.stih_text{text-align: center;}
+.teach_img:focus .teach_info{opacity:1;transition:0.55s opacity;}
+}
