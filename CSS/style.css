@@ -96,7 +96,7 @@ footer .socsety img {
 }
 /*страница Кураторы*/
 .block_cur{
-  width: 90%;
+  width: 100%;
     margin: auto;
     margin-top: 70px;
 }
@@ -106,13 +106,13 @@ footer .socsety img {
 }
 .teacher{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+  gap: 10px;
   margin: 70px auto;
-
 }
 .teach_img{
-  width: 30%;
+  width: 26%;
   height: auto;
   position: relative;
     cursor: pointer;
