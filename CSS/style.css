@@ -51,7 +51,7 @@ footer .socsety img{width:10%;}
 .stih img{width:70%;margin-top:15px;}
 .stih_text{text-align:center;}
 .teach_img:focus .teach_info{opacity:1;transition:0.55s opacity;}}
-@media screen and (min-width:320px) and (max-width:480px){
+@media screen and (min-width:280px) and (max-width:480px){
 header{flex-direction: column;}
 header  img{width: 40%;margin: auto;}
 nav{justify-content: center;}
